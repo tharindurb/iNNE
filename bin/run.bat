@@ -1,0 +1,1 @@
+java -cp INNE.jar outlier.INNE -S 32 -T 100 -dataFile sample_data.arff -hasLabels -fileType arff
