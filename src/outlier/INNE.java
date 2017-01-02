@@ -1,3 +1,22 @@
+/*
+ *   This is the source code of the anomaly\outlier detection algorithm INNE (isolation using Nearest Neighbour Ensemble). 
+ *   Refer to the following publications for more technical details about the algorithm.
+ *   Conference Paper: Efficient Anomaly Detection by Isolation Using Nearest Neighbour Ensemble (http://ieeexplore.ieee.org/document/7022664)
+ *   Thesis: Isolation based anomaly detection: a re-examination(http://arrow.monash.edu.au/vital/access/manager/Repository/monash:162299)  
+ *
+ *   This program is free software: you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation, either version 3 of the License, or
+ *   (at your option) any later version.
+ *
+ *   This program is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *   GNU General Public License for more details.
+ *
+ *   You should have received a copy of the GNU General Public License
+ *   along with this program.  If not, see <http://www.gnu.org/licenses/>.   
+ */
 package outlier;
 
 import weka.core.Instances;
