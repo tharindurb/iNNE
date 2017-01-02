@@ -14,9 +14,3 @@ fileType: dataset format (this software only accepts ARFF and CSV formats. CSV d
 hasLabels: set this flag if the dataset has labels. The labels must be 0 (normal\inlier) and 1 (anomaly\outlier). Labels must be in the last column of the dataset. If this flag is set then the software will calculate the AUC (Area Under the Receiver Operating Characteristic curve) value of the anomaly detector.
  
 Example command line call: java -cp INNE.jar outlier.INNE -S 32 -T 100 -dataFile sample_data.arff -hasLabels -fileType arff
-
-
-
-
-:
-
